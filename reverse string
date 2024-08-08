@@ -1,0 +1,5 @@
+print("\n\nQ: Write a program to print the reverse of the given string.")
+
+input_string = str(input("Enter any words: "))
+reversed_string = input_string[::-1]
+print("Reversed string:", reversed_string,'\n')

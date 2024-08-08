@@ -1,7 +1,8 @@
+print('\n\nQ: Check if a word or number is a palindrome.')
 #word = "Madam"
 word = str(input('Enter the word :'))
 wordc= word.lower()
 if wordc == wordc[::-1]:
-    print("Palindrome")
+    print("Palindrome",'\n')
 else:
-    print("Not a palindrome")
+    print("Not a palindrome",'\n')

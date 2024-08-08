@@ -1,6 +1,0 @@
-print("\n\nQ: Write a function that takes two numbers and returns their sum.")
-
-print('solution:')
-value1 = 5
-value2 = 10
-print('sum of two values: ',value1+value2,'\n')

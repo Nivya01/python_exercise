@@ -1,0 +1,7 @@
+#word = "Madam"
+word = str(input('Enter the word :'))
+wordc= word.lower()
+if wordc == wordc[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")

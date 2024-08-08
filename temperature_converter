@@ -1,0 +1,4 @@
+print("\n\nConvert temperature between Celsius and Fahrenheit. ")
+value = float(input('Enter any temperature:'))
+formula = (value-32)*(5/9)
+print(value,"temperature =",formula, "celsius")
